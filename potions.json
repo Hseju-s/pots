@@ -1,0 +1,59 @@
+{"Potions_MP" : [{
+			"name" : "Sarberry Deliciousness",
+			"id": 70098,
+			"cooldown" : 0,
+			"active" : false,
+			"percentToUse" : 10,
+			"standalone" : false},
+		{
+			"name" : "Dvine Infusion",
+			"id" : 130,
+			"cooldown" : 0,
+			"active" : false,
+			"percentToUse" : 10,
+			"standalone" : false},
+		{
+			"name" : "Prime Replenishment Potable",
+			"id" : 6562,
+			"cooldown" : 0,
+			"active" : true,
+			"percentToUse" : 25,
+			"standalone" : true}
+		],	
+"Potions_HP" : [{
+			"name" : "Rejuvenation Potion",
+			"id" : 111,
+			"cooldown" : 0,
+			"active" : false,
+			"percentToUse": 10,
+			"standalone" : false},
+		{
+			"name" : "Valiant Potion",
+			"id" : 112,
+			"cooldown" : 0,
+			"active" : false,
+			"percentToUse": 10,
+			"standalone" : false},
+		{
+			"name" : "Health Potion",
+			"id" : 116,
+			"cooldown" : 0,
+			"active" : true,
+			"percentToUse": 10,
+			"standalone" : false},
+		{
+			"name" : "Valkyon Health Potion",
+			"id" : 114,
+			"cooldown" : 0,
+			"active" : false,
+			"percentToUse": 10,
+			"standalone" : false},
+		{
+			"name" : "Prime Recovery Potable",
+			"id" : 6552,
+			"cooldown" : 0,
+			"active" : true,
+			"percentToUse": 30,
+			"standalone" : true}
+		]
+}
