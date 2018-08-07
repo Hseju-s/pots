@@ -13,14 +13,22 @@ I have added couple of frequently used pots, however if you want to add more, ju
 Following commands are supported.
 *Note, everything is in proxy chat.*
 > pots on -> Enables module
+
 > pots off -> Disables 
+
 > pots help -> Prints list of options.
+
 > pots status -> Prints status|percentUse of all pots.
 
 *commands below are supported for hp and mp pots*
 > pots hp|mp on -> enables hp/mp pot
+
 > pots hp|mp off -> disables
+
 > pots hp|mp help -> list of options
+
 > pots hp|mp status -> Prints status|percentUse of specific type.
+
 > pots hp|mp number (changes potion option ingame, type help command for list of number tied to each pot).
+
 > pots hp|mp number percent (changes the pot in specified number to be used at stated %).
