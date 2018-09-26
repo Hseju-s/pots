@@ -1,11 +1,9 @@
 const Command = require('command'),
-	  GameState = require('tera-game-state'),
 	  potions = require("./potions");
 
 module.exports = function HPpotter(dispatch) {
-	const game = GameState(dispatch),
-		  command = Command(dispatch);
-	game.initialize('contract');
+	const command = Command(dispatch);
+	dispatch.game.initialize('contract');
 	
 	let enabled = true,
 		hp_enabled = true,
@@ -94,10 +92,10 @@ module.exports = function HPpotter(dispatch) {
 
 	const useItem = (ItemToUse) => {
 		if (!enabled) return;
-		if(game.me.alive && game.me.inCombat && !game.me.mounted && !game.contract.active && !game.me.inBattleground) {
+		if(dispatch.game.me.alive && dispatch.game.me.inCombat && !dispatch.game.me.mounted && !dispatch.game.contract.active && !dispatch.game.me.inBattleground) {
 			//command.message('using pot.')
 			dispatch.toServer('C_USE_ITEM', 3, {
-				gameId: game.me.gameId,
+				gameId: dispatch.game.me.gameId,
 				id: ItemToUse, // 6562: Prime Replenishment Potable, 184659: Everful Nostrum
 				dbid: 0,
 				target: 0,

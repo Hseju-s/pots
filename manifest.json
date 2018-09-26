@@ -1,8 +1,8 @@
 {
   "files": {
-    "index.js": "49b99744e7ddece1a715d3605fb719f09546754e425ac9e8ae317d98de732259",
-    "potions.json": {"overwrite": false, "hash":  "20c450707d102f377c39eba76782b6aa9d5bf2b3268bf2885e02a0ffa828e5f9"},
-    "README.md": "58f24ec409694dd330c139912e864978bcbd00a2a92b2069ebd2c13e532a4ce0"
+    "index.js": "ee81f34f89e898d53146e972287d0bd99b3f895680c2d9d5f1366c56786dd530",
+    "potions.json": "898817c714bf24c01e20f07211232c8c23557398e91d9d6442c41414ab667827",
+    "README.md": "f7d5000d10e046ef73be91e240c532a760487b4a8f7376019f2f592e69d6fe3c"
   },
    "defs": {
 	  "S_START_COOLTIME_ITEM": 1,
