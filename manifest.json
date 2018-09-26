@@ -1,7 +1,7 @@
 {
   "files": {
     "index.js": "ee81f34f89e898d53146e972287d0bd99b3f895680c2d9d5f1366c56786dd530",
-    "potions.json": "898817c714bf24c01e20f07211232c8c23557398e91d9d6442c41414ab667827",
+    "potions.json": {"overwrite": false, "hash": "898817c714bf24c01e20f07211232c8c23557398e91d9d6442c41414ab667827"},
     "README.md": "f7d5000d10e046ef73be91e240c532a760487b4a8f7376019f2f592e69d6fe3c"
   },
    "defs": {
